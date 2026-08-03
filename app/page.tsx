@@ -110,6 +110,12 @@ const coreBoard = [
     tone: "red",
   },
   {
+    name: "Rahul Chowdhary",
+    role: "CP Lead",
+    image: "/board_and_leads/rahul.png",
+    tone: "red",
+  },
+  {
     name: "Adarsh B Poduval",
     role: "Outreach Lead",
     image: "/board_and_leads/adarsh_b_poduval.jpeg",
@@ -140,7 +146,7 @@ const coreBoard = [
     tone: "blue",
   },
   {
-    name: "Kingshuk (Oxygen)",
+    name: "Kingshuk",
     role: "GameDev Lead",
     image: "/board_and_leads/Kingshuk.jpeg",
     tone: "red",
@@ -153,14 +159,20 @@ const coreBoard = [
   },
   {
     name: "Vedanti",
-    role: "Social Media & Marketing Lead",
+    role: "Publicity Lead",
     image: "/board_and_leads/vedanti.png",
     tone: "yellow",
   },
   {
     name: "Sadhana",
-    role: "Design Co-Lead",
+    role: "Creatives Co-Lead",
     image: "/board_and_leads/shadhna.jpeg",
+    tone: "green",
+  },
+  {
+    name: "Samriddhi",
+    role: "Creatives Lead",
+    image: "/board_and_leads/samriddhi.png",
     tone: "green",
   },
   {
@@ -212,10 +224,10 @@ const departments = [
   {
     icon: Campaign,
     tone: "#FF7A6B",
-    name: "Social Media & Marketing",
+    name: "Publicity",
     description: "Our voice online — reels, posts & campaigns.",
     leads: {
-      1: { name: "Vedanti", role: "Social Media & Marketing Lead", image: "/board_and_leads/vedanti.png" },
+      1: { name: "Vedanti", role: "Publicity Lead", image: "/board_and_leads/vedanti.png" },
       2: { name: "Ananya Harithas", role: "Publicity Lead", image: "/board_and_leads/ananya_harithas.jpeg" },
     },
   },
@@ -241,10 +253,11 @@ const departments = [
   {
     icon: Palette,
     tone: "#FFD45E",
-    name: "Design",
+    name: "Creatives",
     description: "Branding, posters & the visual identity of GDG VITC.",
     leads: {
-      1: { name: "Sadhana", role: "Design Co-Lead", image: "/board_and_leads/shadhna.jpeg" },
+      1: { name: "Sadhana", role: "Creatives Co-Lead", image: "/board_and_leads/shadhna.jpeg" },
+      2: { name: "Samriddhi", role: "Creatives Lead", image: "/board_and_leads/samriddhi.png" },
     },
   },
   {
@@ -271,7 +284,7 @@ const departments = [
     name: "Game Dev",
     description: "Building games with Unity, Godot & the web.",
     leads: {
-      1: { name: "Kingshuk (Oxygen)", role: "GameDev Lead", image: "/board_and_leads/Kingshuk.jpeg" },
+      1: { name: "Kingshuk", role: "GameDev Lead", image: "/board_and_leads/Kingshuk.jpeg" },
       2: { name: "Kanha Arjun Jain", role: "GameDev Lead", image: "/board_and_leads/kanha.png" },
     },
   },
@@ -309,6 +322,7 @@ const departments = [
     description: "DSA, contests & cracking that dream internship.",
     leads: {
       1: { name: "Aayush Talukdar", role: "CP Lead", image: "/board_and_leads/aayush_talukdar.jpeg" },
+      2: { name: "Rahul Chowdhary", role: "CP Lead", image: "/board_and_leads/rahul.png" },
     },
   },
 ] as const;
@@ -519,7 +533,7 @@ function Team() {
           <div className="team-divider" aria-hidden />
 
           <div className="team-column team-column-organiser">
-            <h3 className="group-title">CAMPUS ORGANISER</h3>
+            <h3 className="group-title">HEADS</h3>
             <div className="team-heads-grid">
               {heads.map((member) => (
                 <div className="person-card person-card-core" key={member.name}>
@@ -535,7 +549,7 @@ function Team() {
 
       <div className="team-group">
         <h3 className="group-title group-title-core">
-          CORE BOARD
+          LEADS
         </h3>
         <div className="team-core-grid">
           {coreBoard.map((member) => (
@@ -635,7 +649,7 @@ function Events() {
           <SectionLabel tone="yellow">// WHAT&apos;S ON</SectionLabel>
           <h2>upcoming events.</h2>
         </div>
-        <a href="https://gdg.community.dev/gdg-on-campus-vellore-institute-of-technology-chennai-india/">
+        <a href="https://gdg.community.dev/gdg-on-campus-vellore-institute-of-technology-chennai-india/" target="_blank">
           View on GDG Community <span>→</span>
         </a>
       </div>

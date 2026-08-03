@@ -714,7 +714,7 @@ function JoinSection() {
       <div className="join-actions">
         <a
           className="button button-primary"
-          href="#join"
+          href="https://gdg-rec.vercel.app/"
           style={{ backgroundColor: "var(--yellow)" }}
         >
           <span aria-hidden>
@@ -845,7 +845,7 @@ function Header() {
           ))}
         </nav>
 
-        <a className="button button-join" href="#join">
+        <a className="button button-join" href="https://gdg-rec.vercel.app/">
           <span aria-hidden>⚡</span> Join us
         </a>
       </div>
@@ -910,7 +910,7 @@ export default function Home() {
           </p>
 
           <div className="hero-actions">
-            <a className="button button-primary" href="#join">
+            <a className="button button-primary" href="https://gdg-rec.vercel.app/">
               <span aria-hidden>
                 <Image
                   src={rocketAsset}

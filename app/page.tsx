@@ -64,16 +64,138 @@ const aboutPrinciples = [
 ] as const;
 
 const advisoryBoard = [
-  { name: "Name", role: "Faculty Advisor", tone: "red" },
-  { name: "Name", role: "Faculty Advisor", tone: "green" },
+  {
+    name: "Pranav Prashant Shewale",
+    role: "Board Member",
+    image: "/board_and_leads/pranav_prashant_shewale.png",
+    tone: "blue",
+  },
+  {
+    name: "Ishita Chauhan",
+    role: "Board Member",
+    image: "/board_and_leads/ishita_chauhan.jpeg",
+    tone: "green",
+  },
+  {
+    name: "Sagnik Sen",
+    role: "Board Member",
+    image: "/board_and_leads/sagnik_sen.jpeg",
+    tone: "yellow",
+  },
+  {
+    name: "Anay Patil",
+    role: "Board Member",
+    image: "",
+    tone: "red",
+  },
 ] as const;
 
 const coreBoard = [
-  { name: "Name", role: "Chapter Lead", tone: "blue" },
-  { name: "Name", role: "Co-Lead", tone: "red" },
-  { name: "Name", role: "Technical Head", tone: "green" },
-  { name: "Name", role: "Product Head", tone: "yellow" },
-  { name: "Name", role: "Operations Head", tone: "blue" },
+  {
+    name: "Varun Achary",
+    role: "Management Lead",
+    image: "/board_and_leads/varun_achary.jpeg",
+    tone: "blue",
+  },
+  {
+    name: "Dhyan",
+    role: "Management Lead",
+    image: "/board_and_leads/dhyan.jpeg",
+    tone: "blue",
+  },
+  {
+    name: "Aayush Talukdar",
+    role: "CP Lead",
+    image: "/board_and_leads/aayush_talukdar.jpeg",
+    tone: "red",
+  },
+  {
+    name: "Adarsh B Poduval",
+    role: "Outreach Lead",
+    image: "/board_and_leads/adarsh_b_poduval.jpeg",
+    tone: "blue",
+  },
+  {
+    name: "Sumedh Patange",
+    role: "Outreach Lead",
+    image: "/board_and_leads/sumedh_patange.jpeg",
+    tone: "red",
+  },
+  {
+    name: "Adil O",
+    role: "UI/UX Lead",
+    image: "/board_and_leads/adil_o.jpeg",
+    tone: "yellow",
+  },
+  {
+    name: "Surjyadip Sen",
+    role: "Webdev Lead",
+    image: "/board_and_leads/surjyadipsen.png",
+    tone: "yellow",
+  },
+  {
+    name: "Hardik Prem",
+    role: "App Dev Lead",
+    image: "/board_and_leads/hardik_prem.jpeg",
+    tone: "blue",
+  },
+  {
+    name: "Kingshuk (Oxygen)",
+    role: "GameDev Lead",
+    image: "/board_and_leads/Kingshuk.jpeg",
+    tone: "red",
+  },
+  {
+    name: "Kanha Arjun Jain",
+    role: "GameDev Lead",
+    image: "/board_and_leads/kanha.png",
+    tone: "green",
+  },
+  {
+    name: "Vedanti",
+    role: "Social Media & Marketing Lead",
+    image: "/board_and_leads/vedanti.png",
+    tone: "yellow",
+  },
+  {
+    name: "Sadhana",
+    role: "Design Co-Lead",
+    image: "/board_and_leads/shadhna.jpeg",
+    tone: "green",
+  },
+  {
+    name: "Ananya Harithas",
+    role: "Publicity Lead",
+    image: "/board_and_leads/ananya_harithas.jpeg",
+    tone: "red",
+  },
+  {
+    name: "Srivarshini S",
+    role: "Data Science Lead",
+    image: "/board_and_leads/srivarshini_s.jpeg",
+    tone: "green",
+  },
+  {
+    name: "Aditi Singh",
+    role: "Blockchain Lead",
+    image: "/board_and_leads/aditi_singh.jpeg",
+    tone: "yellow",
+  },
+] as const;
+
+const heads = [
+  {
+    name: "V Srivatsan",
+    role: "Projects Head",
+    image: "/board_and_leads/v_srivatsan.jpeg",
+    tone: "red",
+  },
+  {
+    name: "Aditi Singh",
+    role: "Technical Head",
+    image: "/board_and_leads/aditi_singh.jpeg",
+    tone: "yellow",
+  },
 ] as const;
 
 const departments = [
@@ -83,7 +205,8 @@ const departments = [
     name: "Management",
     description: "Operations, logistics and the people who make events happen.",
     leads: {
-      1: { name: "Name", role: "Lead", image: "" },
+      1: { name: "Varun Achary", role: "Management Lead", image: "/board_and_leads/varun_achary.jpeg" },
+      2: { name: "Dhyan", role: "Management Lead", image: "/board_and_leads/dhyan.jpeg" },
     },
   },
   {
@@ -92,7 +215,8 @@ const departments = [
     name: "Social Media & Marketing",
     description: "Our voice online — reels, posts & campaigns.",
     leads: {
-      1: { name: "Name", role: "Lead", image: "" },
+      1: { name: "Vedanti", role: "Social Media & Marketing Lead", image: "/board_and_leads/vedanti.png" },
+      2: { name: "Ananya Harithas", role: "Publicity Lead", image: "/board_and_leads/ananya_harithas.jpeg" },
     },
   },
   {
@@ -101,8 +225,8 @@ const departments = [
     name: "Outreach",
     description: "Partnerships, sponsors & sister communities.",
     leads: {
-      1: { name: "Name", role: "Lead", image: "" },
-      2: { name: "Name", role: "Lead", image: "" },
+      1: { name: "Adarsh B Poduval", role: "Outreach Lead", image: "/board_and_leads/adarsh_b_poduval.jpeg" },
+      2: { name: "Sumedh Patange", role: "Outreach Lead", image: "/board_and_leads/sumedh_patange.jpeg" },
     },
   },
   {
@@ -111,7 +235,7 @@ const departments = [
     name: "UI / UX",
     description: "Research, wireframes & interfaces people love.",
     leads: {
-      1: { name: "Name", role: "Lead", image: "" },
+      1: { name: "Adil O", role: "UI/UX Lead", image: "/board_and_leads/adil_o.jpeg" },
     },
   },
   {
@@ -120,7 +244,7 @@ const departments = [
     name: "Design",
     description: "Branding, posters & the visual identity of GDG VITC.",
     leads: {
-      1: { name: "Name", role: "Lead", image: "" },
+      1: { name: "Sadhana", role: "Design Co-Lead", image: "/board_and_leads/shadhna.jpeg" },
     },
   },
   {
@@ -129,7 +253,7 @@ const departments = [
     name: "Web Dev",
     description: "Modern frontends, full-stack apps & the open web.",
     leads: {
-      1: { name: "Name", role: "Lead", image: "" },
+      1: { name: "Surjyadip Sen", role: "Webdev Lead", image: "/board_and_leads/surjyadipsen.png" },
     },
   },
   {
@@ -138,7 +262,7 @@ const departments = [
     name: "App Dev",
     description: "Android & cross-platform apps with Kotlin & Flutter.",
     leads: {
-      1: { name: "Name", role: "Lead", image: "" },
+      1: { name: "Hardik Prem", role: "App Dev Lead", image: "/board_and_leads/hardik_prem.jpeg" },
     },
   },
   {
@@ -147,7 +271,8 @@ const departments = [
     name: "Game Dev",
     description: "Building games with Unity, Godot & the web.",
     leads: {
-      1: { name: "Name", role: "Lead", image: "" },
+      1: { name: "Kingshuk (Oxygen)", role: "GameDev Lead", image: "/board_and_leads/Kingshuk.jpeg" },
+      2: { name: "Kanha Arjun Jain", role: "GameDev Lead", image: "/board_and_leads/kanha.png" },
     },
   },
   {
@@ -156,7 +281,7 @@ const departments = [
     name: "Data Science",
     description: "ML, analytics & making sense of messy data.",
     leads: {
-      1: { name: "Name", role: "Lead", image: "" },
+      1: { name: "Srivarshini S", role: "Data Science Lead", image: "/board_and_leads/srivarshini_s.jpeg" },
     },
   },
   {
@@ -165,7 +290,7 @@ const departments = [
     name: "Open Source",
     description: "Contributing to & maintaining open projects.",
     leads: {
-      1: { name: "Name", role: "Lead", image: "" },
+      1: { name: "Aditi Singh", role: "Technical Head", image: "/board_and_leads/aditi_singh.jpeg" },
     },
   },
   {
@@ -174,7 +299,7 @@ const departments = [
     name: "Blockchain",
     description: "Web3, smart contracts & decentralized apps.",
     leads: {
-      1: { name: "Name", role: "Lead", image: "" },
+      1: { name: "Aditi Singh", role: "Blockchain Lead", image: "/board_and_leads/aditi_singh.jpeg" },
     },
   },
   {
@@ -183,7 +308,7 @@ const departments = [
     name: "Competitive Programming",
     description: "DSA, contests & cracking that dream internship.",
     leads: {
-      1: { name: "Name", role: "Lead", image: "" },
+      1: { name: "Aayush Talukdar", role: "CP Lead", image: "/board_and_leads/aayush_talukdar.jpeg" },
     },
   },
 ] as const;
@@ -191,31 +316,45 @@ const departments = [
 const events = [
   {
     month: "AUG",
-    date: "12",
-    name: "Build with Gemini",
-    description: "Hands-on workshop",
-    time: "10:00 AM",
+    date: "04",
+    name: "GDG Open Day",
+    venue: "Nethaji Auditorium",
+  },
+  {
+    month: "AUG",
+    date: "28",
+    name: "Game Arcade",
+    venue: "Kasturba Hall",
   },
   {
     month: "SEP",
-    date: "04",
-    name: "Web Dev Jam",
-    description: "Bring an idea, leave with a prototype",
-    time: "2:00 PM",
+    date: "11",
+    name: "Web2 + Web3 Hackathon",
+    venue: "Nethaji Auditorium",
+  },
+  {
+    month: "SEP",
+    date: "18",
+    name: "Figma Workshop",
+    venue: "Nethaji Auditorium",
   },
   {
     month: "OCT",
-    date: "18",
-    name: "DevFest VITC",
-    description: "Our flagship community event",
-    time: "9:00 AM",
+    date: "05",
+    name: "AI Product Management Summit",
+    venue: "Nethaji Auditorium",
   },
   {
-    month: "NOV",
-    date: "09",
-    name: "Open Source Night",
-    description: "Ship something that matters",
-    time: "5:30 PM",
+    month: "OCT",
+    date: "12",
+    name: "Flutter Wars",
+    venue: "Nethaji Auditorium",
+  },
+  {
+    month: "OCT",
+    date: "20",
+    name: "Algo Wars",
+    venue: "Nethaji Auditorium",
   },
 ] as const;
 
@@ -265,19 +404,35 @@ function SectionLabel({
 function TeamAvatar({
   tone,
   size = "large",
+  src,
+  alt,
 }: {
   tone: "blue" | "red" | "green" | "yellow";
   size?: "large" | "medium" | "small";
+  src?: string;
+  alt?: string;
 }) {
   return (
     <div className={`team-avatar team-avatar-${tone} team-avatar-${size}`}>
       <div className="team-avatar-inner">
-        <MaskIcon
-          src="/assets/icon-vector-4.svg"
-          color="rgba(27, 27, 27, 0.55)"
-          size={size === "large" ? 28 : size === "medium" ? 24 : 22}
-        />
-        <span>Photo</span>
+        {src ? (
+          <Image
+            src={src}
+            alt={alt || "Team member photo"}
+            width={size === "large" ? 122 : size === "medium" ? 82 : 96}
+            height={size === "large" ? 122 : size === "medium" ? 82 : 96}
+            style={{ objectFit: "cover", width: "100%", height: "100%", borderRadius: "999px" }}
+          />
+        ) : (
+          <>
+            <MaskIcon
+              src="/assets/icon-vector-4.svg"
+              color="rgba(27, 27, 27, 0.55)"
+              size={size === "large" ? 28 : size === "medium" ? 24 : 22}
+            />
+            <span>Photo</span>
+          </>
+        )}
       </div>
     </div>
   );
@@ -348,34 +503,29 @@ function Team() {
       </p>
       <div className="team-group team-group-top">
         <div className="team-top-grid">
-          <div className="team-column team-column-organiser">
-            <h3 className="group-title">CAMPUS ORGANISER</h3>
-            <div className="team-person team-person-organiser">
-              <TeamAvatar tone="blue" size="large" />
-              <div className="team-person-copy">
-                <strong>Name</strong>
-                <small className="tone-blue">Campus Organiser</small>
-              </div>
-            </div>
-          </div>
-
-          <div className="team-divider" aria-hidden />
 
           <div className="team-column team-column-advisors">
-            <h3 className="group-title">ADVISORY BOARD · FACULTY</h3>
-            <div className="team-advisors-list">
+            <h3 className="group-title">BOARD MEMBERS</h3>
+            <div className="team-advisors-grid">
               {advisoryBoard.map((member) => (
-                <div
-                  className="team-person team-person-advisor"
-                  key={member.role + member.tone}
-                >
-                  <TeamAvatar tone={member.tone} size="medium" />
-                  <div className="team-person-copy">
-                    <strong>{member.name}</strong>
-                    <small className={`tone-${member.tone}`}>
-                      {member.role}
-                    </small>
-                  </div>
+                <div className="person-card person-card-core" key={member.name}>
+                  <TeamAvatar tone={member.tone} size="small" src={member.image} alt={member.name} />
+                  <strong>{member.name}</strong>
+                  <small className={`tone-${member.tone}`}>{member.role}</small>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="team-divider" aria-hidden />
+
+          <div className="team-column team-column-organiser">
+            <h3 className="group-title">CAMPUS ORGANISER</h3>
+            <div className="team-heads-grid">
+              {heads.map((member) => (
+                <div className="person-card person-card-core" key={member.name}>
+                  <TeamAvatar tone={member.tone} size="small" src={member.image} alt={member.name} />
+                  <strong>{member.name}</strong>
+                  <small className={`tone-${member.tone}`}>{member.role}</small>
                 </div>
               ))}
             </div>
@@ -385,12 +535,12 @@ function Team() {
 
       <div className="team-group">
         <h3 className="group-title group-title-core">
-          CORE BOARD &amp; PROJECT HEADS
+          CORE BOARD
         </h3>
         <div className="team-core-grid">
           {coreBoard.map((member) => (
-            <div className="person-card person-card-core" key={member.role}>
-              <TeamAvatar tone={member.tone} size="small" />
+            <div className="person-card person-card-core" key={member.name}>
+              <TeamAvatar tone={member.tone} size="small" src={member.image} alt={member.name} />
               <strong>{member.name}</strong>
               <small className={`tone-${member.tone}`}>{member.role}</small>
             </div>
@@ -448,8 +598,19 @@ function Departments() {
                             borderColor: department.tone,
                             borderWidth: "2px",
                             borderStyle: "solid",
+                            overflow: "hidden",
                           }}
-                        ></div>
+                        >
+                          {lead.image ? (
+                            <Image
+                              src={lead.image}
+                              alt={lead.name}
+                              width={62}
+                              height={62}
+                              style={{ objectFit: "cover", width: "100%", height: "100%" }}
+                            />
+                          ) : null}
+                        </div>
                         {lead.name}
                         <br />
                         {lead.role}
@@ -474,8 +635,8 @@ function Events() {
           <SectionLabel tone="yellow">// WHAT&apos;S ON</SectionLabel>
           <h2>upcoming events.</h2>
         </div>
-        <a href="#events">
-          Schedule <span>→</span>
+        <a href="https://gdg.community.dev/gdg-on-campus-vellore-institute-of-technology-chennai-india/">
+          View on GDG Community <span>→</span>
         </a>
       </div>
       <div className="event-list">
@@ -487,10 +648,8 @@ function Events() {
             </div>
             <div className="event-main">
               <h3>{event.name}</h3>
-              <p>{event.description}</p>
+              <p>{event.venue}</p>
             </div>
-            <span className="event-time">{event.time}</span>
-            <span className="event-arrow">↗</span>
           </div>
         ))}
       </div>

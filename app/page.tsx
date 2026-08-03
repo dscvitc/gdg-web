@@ -85,7 +85,7 @@ const advisoryBoard = [
   {
     name: "Anay Patil",
     role: "Board Member",
-    image: "",
+    image: "/board_and_leads/anay.png",
     tone: "red",
   },
 ] as const;

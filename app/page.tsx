@@ -140,6 +140,12 @@ const coreBoard = [
     tone: "yellow",
   },
   {
+    name: "V Srivatsan",
+    role: "Cloud & DevOps Lead",
+    image: "/board_and_leads/v_srivatsan.jpeg",
+    tone: "yellow",
+  },
+  {
     name: "Hardik Prem",
     role: "App Dev Lead",
     image: "/board_and_leads/hardik_prem.jpeg",
@@ -298,21 +304,21 @@ const departments = [
     },
   },
   {
-    icon: Hub,
-    tone: "#6EE7A0",
-    name: "Open Source",
-    description: "Contributing to & maintaining open projects.",
-    leads: {
-      1: { name: "Aditi Singh", role: "Technical Head", image: "/board_and_leads/aditi_singh.jpeg" },
-    },
-  },
-  {
     icon: Link,
     tone: "#FFD45E",
     name: "Blockchain",
     description: "Web3, smart contracts & decentralized apps.",
     leads: {
       1: { name: "Aditi Singh", role: "Blockchain Lead", image: "/board_and_leads/aditi_singh.jpeg" },
+    },
+  },
+  {
+    icon: Link,
+    tone: "#FFD45E",
+    name: "Cloud & DevOps",
+    description: "Everything about backend",
+    leads: {
+      1: { name: "V Srivatsan", role: "Cloud & DevOps Lead", image: "/board_and_leads/v_srivatsan.jpeg" },
     },
   },
   {

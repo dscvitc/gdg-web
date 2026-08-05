@@ -1332,7 +1332,8 @@ footer {
 }
 
 @media (max-width: 800px) {
-  nav {
+  nav,
+  .button-join {
     display: none;
   }
 
@@ -1374,6 +1375,11 @@ footer {
     font-size: 40px;
   }
 
+  .hero-sticker,
+  .hero-spark {
+    display: none;
+  }
+
   .hero-sticker-left {
     right: 6%;
     top: 176px;
@@ -1385,8 +1391,7 @@ footer {
   }
 
   .hero-blob {
-    right: 24px;
-    top: 106px;
+    display: none;
   }
 
   .hero-glow-blue {

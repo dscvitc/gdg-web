@@ -769,7 +769,7 @@ function Footer() {
             A student developer community at Vellore Institute of Technology,
             Chennai - learning and building with Google technologies.
           </p>
-          <div className="socials">
+          {/* <div className="socials">
             <a
               href="https://www.instagram.com/"
               aria-label="Instagram"
@@ -817,7 +817,7 @@ function Footer() {
                 height={22}
               />
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div>
@@ -831,7 +831,7 @@ function Footer() {
 
         <div>
           <h4>Get in touch</h4>
-          <a href="mailto:gdg.vitchennai@gmail.com">gdg.vitchennai@gmail.com</a>
+          <a href="mailto:gdgvitc@gmail.com">gdgvitc@gmail.com</a>
           <span>VIT Chennai, Kelambakkam</span>
         </div>
       </div>
@@ -909,7 +909,7 @@ export default function Home() {
 
         <div className="hero-inner">
           <p className="eyebrow">
-            <i /> Student dev community · backed by Google Developers
+            <i /> Student Dev Community · backed by Google Developers
           </p>
 
           <h1 id="hero-title">
@@ -943,7 +943,7 @@ export default function Home() {
               Become a GDG Member
             </a>
             <a className="button button-outline" href="#departments">
-              Explore departments
+              Explore Departments
             </a>
           </div>
 
